@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body>* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#dia1 {
+    background-image: url('../images/garbagewater.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dia {
+    height: 90vh;
+    margin: 0;
+    background-color: white;
+}
+
+.text-area {
+    width: 50vw;
+}
+
+.text-area>p {
+    text-align: justify;
+    font-size: 1.5vw;
+    color: aliceblue;
+    margin-top: -15vh;
+    font-stretch: condensed;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: white;
+    width: fit-content;
+    padding: 0.2vh 1vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#dia2 {
+    height: 50vh;
+}
+
+.content2 {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh
+}
+
+.content2>p {
+    width: 30vw;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.list-icon {
+    margin-right: 2vw;
+    color: green;
+    font-size: 2vw;
+}
+
+.list-icon-incorrect {
+    margin-right: 2vw;
+    color: red;
+    font-size: 2vw;
+}
+
+.content2>.right {
+    font-size: 1.4vw;
+}
+
+.btn-2 {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0 1vw;
+    border-radius: 20px;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+#dia3 {
+    background-image: url('../images/beachwater.jpg');
+    background-color: rgba(0, 0, 0, 0.383);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5vw;
+    width: 80vw;
+    color: white;
+}
+
+#content3>.left>.list-item>.list-icon {
+    color: lightgreen
+}
+
+#content3>.right>.list-item>.list-icon {
+    color: lightgreen
+}
+
+#dia4 {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+#content4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80vw;
+    padding: 10vh;
+}
+
+#content4>.left {
+    width: 50vw;
+}
+
+#content4>.right {
+    display: flex;
+    align-items: center;
+}
+
+#dia5 {
+    background-color: rgb(226, 226, 226);
+    height: 53vh;
+}
+
+#content5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#dia6 {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+#content6 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10vh;
+}
+
+#content6>.left {
+    width: 50vw;
+}
+
+#content6>.right {
+    display: flex;
+    align-items: center;
+}
+
+#dia7{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#content7{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 2vw;
+    width: 80vw;
+    margin-top: 5vh;
+}
+
+#superaqua_silver{
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
