@@ -7,9 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
-
-#dia1 {
-    background-image: url('../images/garbagewater.jpg');
+.gg-close-r{
+    float: right;
+    margin: 2vw;
+    cursor: pointer;
+}
+.dia1 {
+    background-image: url('../images/firstbg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,7 +54,7 @@ body {
     cursor: pointer;
 }
 
-#dia2 {
+.dia2 {
     height: 50vh;
 }
 
@@ -104,7 +108,7 @@ body {
     cursor: pointer;
 }
 
-#dia3 {
+.dia3 {
     background-image: url('../images/beachwater.jpg');
     background-color: rgba(0, 0, 0, 0.383);
     background-position: center;
@@ -115,7 +119,7 @@ body {
     justify-content: center;
 }
 
-#content3 {
+.content3 {
     display: grid;
     grid-template-columns: auto auto;
     gap: 5vw;
@@ -123,76 +127,87 @@ body {
     color: white;
 }
 
-#content3>.left>.list-item>.list-icon {
+.overlay:nth-child(1) > .btn-2 {
+    position: relative;
+    left: -40%;
+    top: 40%;
+    z-index: 1;
+}
+
+.content3>.left>.list-item>.list-icon {
     color: lightgreen
 }
 
-#content3>.right>.list-item>.list-icon {
+.content3>.right>.list-item>.list-icon {
     color: lightgreen
 }
 
-#dia4 {
+.dia4 {
     display: flex;
     justify-content: center;
     height: 55vh;
 }
 
-#content4 {
+.content4 {
     display: grid;
     grid-template-columns: auto auto;
     width: 80vw;
     padding: 10vh;
 }
 
-#content4>.left {
+.content4>.left {
     width: 50vw;
 }
 
-#content4>.right {
+.content4>.right {
     display: flex;
     align-items: center;
 }
 
-#dia5 {
-    background-color: rgb(226, 226, 226);
+.dia5 {
+    background-image: url('../images/garbagewater.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 53vh;
 }
 
-#content5 {
+.content5 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
-#dia6 {
+
+.dia6 {
     display: flex;
     justify-content: center;
     height: 55vh;
 }
 
-#content6 {
+.content6 {
     width: 80vw;
     display: grid;
     grid-template-columns: auto auto;
     padding: 10vh;
 }
 
-#content6>.left {
+.content6>.left {
     width: 50vw;
 }
 
-#content6>.right {
+.content6>.right {
     display: flex;
     align-items: center;
 }
 
-#dia7{
+.dia7 {
     display: flex;
     justify-content: center;
-   
 }
 
-#content7{
+.content7 {
     display: grid;
     grid-template-columns: 7fr 3fr;
     gap: 2vw;
@@ -200,7 +215,109 @@ body {
     margin-top: 5vh;
 }
 
-#superaqua_silver{
+#superaqua_silver {
     margin-top: 3vh;
     margin-left: 4vw;
+}
+
+.dia8 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content8 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+.working-gif {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("http://www.vizguru.hu/images/kepek/asztali_viztisztito_mukodese.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.dia9 {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    background-color: lightgray;
+}
+
+.content9 {
+    width: 80vw;
+}
+
+.dia10 {
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+
+.content10 {
+    width: 80vw;
+}
+
+
+.more-block {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-color: rgb(59, 59, 59, 0.7);
+    z-index: 99;
+}
+.more-window{
+    width: 35vw;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+.unactive{
+    display: none;
+}
+
+
+.more-text-area{
+    margin:2vw;
+    margin-top: 15vh;
+}
+@media(max-width:450px) {
+    .dia {
+        height: 100%;
+    }
+    .dia1 {
+        height: 70vh;
+    }
+    .content {
+        grid-template-columns: none;
+        width: 90vw;
+        height: fit-content;
+    }
+    .content > .left{
+        width:90vw
+    }
+    .text-area{
+        width: 80vw;
+    }
+    .btn-2{
+        margin-bottom: 5vh;
+    }
+    body > div.root > div.dia.dia5 > div > div.btn.btn-2{
+        background-color: transparent;
+    }
+    .more-window{
+        width: 80vw;
+    }
 }
