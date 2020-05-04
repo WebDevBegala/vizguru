@@ -293,6 +293,16 @@ body {
     margin:2vw;
     margin-top: 15vh;
 }
+
+
+.btn-buy{
+    background-color:lightblue;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vh;
+}
+
 @media(max-width:450px) {
     .dia {
         height: 100%;

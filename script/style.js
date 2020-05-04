@@ -5,7 +5,6 @@ $(document).ready(() => {
       $(".content7 > .left").css("height")
       $("p").css("font-size", "3.5vw")
    }
-
 })
 
 
@@ -25,4 +24,8 @@ function getNumFromClass(text){
    let number = newText[1].substr(3);
    return number
 
+}
+
+function goToBuy(){
+   window.location.href = 'megrendeles.html';
 }
