@@ -4,6 +4,8 @@ $(document).ready(() => {
       console.log("Mobil")
       $(".content7 > .left").css("height")
       $("p").css("font-size", "3.5vw")
+      $(".list-icon").css("font-size", "4vw");
+      $(".list-icon-incorrect").css("font-size","4vw");
    }
 })
 
