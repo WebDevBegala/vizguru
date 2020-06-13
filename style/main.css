@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
 }
 h2{
-    font-size: 1.75em;
+    font-size: 2em;
 }
 .dia {
     height: 90vh;
@@ -37,7 +37,8 @@ h2{
 }
 
 #video{
-    height: 30vh;
+    height: 40vh;
+    width: 40vw;
 }
 
 .text-area>p {
