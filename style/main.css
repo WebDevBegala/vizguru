@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body>* {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.gg-close-r{
+    float: right;
+    margin: 2vw;
+    cursor: pointer;
+}
+.dia1 {
+    background-image: url('../images/index.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    font-size: 1.75em;
+}
+.dia {
+    height: 90vh;
+    margin: 0;
+    background-color: white;
+}
+
+.content1 > .text-area > h3{
+    font-size: 2vw;
+}
+
+.text-area {
+    width: 50vw;
+}
+
+#video{
+    height: 30vh;
+}
+
+.text-area>p {
+    text-align: justify;
+    font-size: 1.5vw;
+    color: aliceblue;
+    /* margin-top: -15vh; */
+    font-stretch: condensed;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.462);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: white;
+    width: fit-content;
+    padding: 0.2vh 1vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.dia1A{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.black-row{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.dia1A > .row{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left:12vw;
+    margin-right: 15vw;
+    gap: 4vw;
+}
+.dia1A > .row > .image{
+    background-image: url("../images/angry-woman-1.jpg");
+    height: 50vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+.dia1A > .row > .right > .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.7vw;
+}
+
+.dia1A-right-images{
+    margin-top: 2vh;
+    display: flex;
+}
+.dia1A-right-images > .left-img{
+    background-image: url("../images/no_palackok.png");
+    height: 25vh;
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.dia1A-right-images > .right-img{
+    background-image: url("../images/palack_szennyezes.png");
+    height: 25vh;
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+    margin-left: 7vw;
+}
+
+.dia2 {
+    height: 50vh;
+
+}
+
+.content2 {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh
+}
+
+.content2>p {
+    width: 30vw;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.list-icon {
+    margin-right: 2vw;
+    color: green;
+    font-size: 3vw;
+}
+
+.list-icon-incorrect {
+    margin-right: 2vw;
+    color: red;
+    font-size: 3vw;
+}
+
+.content2>.right {
+    font-size: 1.4vw;
+}
+
+.btn-2 {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0 1vw;
+    border-radius: 20px;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+.dia3 > .overlay{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(255, 228, 233);
+}
+.dia3 {
+
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+
+}
+
+.content3 > .title{
+    grid-area: title;
+}
+.content3 > .left{
+    grid-area: left;
+}
+.content3 > .right{
+    grid-area: right;
+}
+
+.content3 {
+    display: grid;
+    gap: 5vw;
+    width: 80vw;
+    color: black;
+    grid-template-areas:
+    'title title '
+    'left right';
+}
+
+.overlay:nth-child(1) > .btn-2 {
+    position: relative;
+    left: -40%;
+    top: 40%;
+    z-index: 1;
+}
+
+.content3>.left>.list-item>.list-icon {
+    color: lightgreen
+}
+
+.content3>.right>.list-item>.list-icon {
+    color: lightgreen
+}
+
+.dia4 {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    background-image: url("../images/person-writing-on-white-board-3781338.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80vw;
+    padding: 10vh;
+    color: white;
+}
+.content3 > .title{
+    grid-area: title;
+}
+.content4 > .right >.btn-2{
+    color: black;
+}
+
+.content4>.left {
+    width: 50vw;
+}
+
+.content4>.right {
+    display: flex;
+    align-items: center;
+}
+
+.dia5 {
+    background-image: url('../images/garbagewater.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 53vh;
+}
+
+.content5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.dia6 {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+.content6 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10vh;
+}
+
+.content6>.left {
+    width: 50vw;
+}
+
+.content6>.right {
+    display: flex;
+    align-items: center;
+}
+
+.dia7 {
+    display: flex;
+    justify-content: center;
+    background-color: #e1f8ff;
+    padding-bottom: 4vh;
+    height: fit-content;
+}
+
+.content7 {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 2vw;
+    width: 80vw;
+    margin-top: 5vh;
+    background-color: #e1f8ff;
+}
+
+#superaqua_silver {
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+
+.dia8 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content8 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+.working-gif {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("http://www.vizguru.hu/images/kepek/asztali_viztisztito_mukodese.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.dia9 {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    background-color: lightgray;
+}
+
+.content9 {
+    width: 80vw;
+}
+
+.dia10 {
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+
+.content10 {
+    width: 80vw;
+}
+
+
+.more-block {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-color: rgb(59, 59, 59, 0.7);
+    z-index: 99;
+}
+.more-window{
+    width: 35vw;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+.unactive{
+    display: none;
+}
+
+
+.more-text-area{
+    margin:2vw;
+    margin-top: 15vh;
+}
+
+
+.btn-buy{
+    background-color:#ade6b4;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vh;
+    padding: 1vh 3vw;
+    font-size: 1.7vw;
+}
+
+@media(max-width:450px) {
+    .dia {
+        height: 100%;
+    }
+    .dia1 {
+        height: 70vh;
+    }
+    .content {
+        grid-template-columns: none;
+        width: 90vw;
+        height: fit-content;
+    }
+    .content > .left{
+        width:90vw
+    }
+    .text-area{
+        width: 80vw;
+    }
+    .btn-2{
+        margin-bottom: 5vh;
+        float: left
+    }
+    .btn-buy{
+        padding: 1vh 7vw;
+        font-size: 4vw;
+    }
+    body > div.root > div.dia.dia5 > div > div.btn.btn-2{
+        background-color: transparent;
+    }
+    .more-window{
+        width: 80vw;
+    }
+    .content1 > .text-area > h3{
+        font-size: 5vw;
+    }
+
+    .content3{
+        display: block;
+    }
+    body > div.root > div.dia.dia3 > div > div > div.btn.btn-2{
+        margin-top: 3vh;
+    }
+    .list-icon {
+        margin-right: 2vw;
+        color: green;
+        font-size: 4vw;
+
+    }
+
+    .list-icon-incorrect {
+        margin-right:2vw;
+        color: red;
+        font-size: 4vw;
+    }
+    strong {
+        font-size: 4vw;
+    }
+
+    .black-row{
+        font-size: 4vw;
+    }
+
+    .dia1A > .row > .image {
+        width: 100%;
+    }
+    .dia1A > .row > .text{
+        margin-top: 4vh;
+        font-size: 4.5vw;
+        margin-bottom: 2vh;
+    }
+    .dia1A > .row{
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+    }
+}
