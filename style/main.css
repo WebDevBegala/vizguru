@@ -80,9 +80,9 @@ h2{
 }
 .dia1A > .row{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 70%;
     margin-left:12vw;
-    margin-right: 16vw;
+    margin-right: 15vw;
 }
 .dia1A > .row > .image{
     background-image: url("../images/angry-woman-1.jpg");
