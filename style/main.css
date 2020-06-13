@@ -198,6 +198,9 @@ h2{
 .content3 > .title{
     grid-area: title;
 }
+.content3 > .title > h2{
+    margin-bottom: 0;
+}
 .content3 > .left{
     grid-area: left;
 }
@@ -205,9 +208,17 @@ h2{
     grid-area: right;
 }
 
+.content3 > .left > h3, .content3 > .right > h3{
+    font-size: 1.4em
+}
+
+.content3 > .left > p, .content3 > .right > p{
+    text-decoration: underline;
+    font-size: 1.3vw;
+}
 .content3 {
     display: grid;
-    gap: 5vw;
+    gap: 4vw;
     width: 80vw;
     color: black;
     grid-template-areas:
