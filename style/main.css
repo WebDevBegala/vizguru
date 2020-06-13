@@ -185,6 +185,30 @@ h2{
     font-size: 1.3vw;
     cursor: pointer;
 }
+
+.dia2A{
+    background-color: rgb(210, 214, 208);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px solid green;
+}
+
+.inside-row{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 4vw;
+}
+
+.img{
+    height: 35vh;
+    width: 20vw;
+    background-color: aquamarine;
+
+}
+
 .dia3 > .overlay{
     padding-top: 10vh;
     padding-bottom: 10vh;
