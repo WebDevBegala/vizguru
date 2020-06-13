@@ -6,6 +6,7 @@ $(document).ready(() => {
       $("p").css("font-size", "3.5vw")
       $(".list-icon").css("font-size", "4vw");
       $(".list-icon-incorrect").css("font-size","4vw");
+      $("p").css("font-size", "4vw");
    }
 })
 

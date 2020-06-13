@@ -95,7 +95,7 @@ h2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 .dia2 {
     height: 50vh;
@@ -434,5 +434,25 @@ h2{
         margin-right:2vw;
         color: red;
         font-size: 4vw;
+    }
+    strong {
+        font-size: 4vw;
+    }
+
+    .black-row{
+        font-size: 4vw;
+    }
+
+    .dia1A > .row > .image {
+        width: 100%;
+    }
+    .dia1A > .row > .text{
+        margin-top: 4vh;
+        font-size: 4.5vw;
+        margin-bottom: 2vh;
+    }
+    .dia1A > .row{
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
     }
 }
