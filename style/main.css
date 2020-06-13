@@ -19,7 +19,9 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-
+h2{
+    font-size: 1.75em;
+}
 .dia {
     height: 90vh;
     margin: 0;
@@ -68,18 +70,19 @@ body {
 }
 
 .black-row{
-background-color: black;
-color: yellow;
-text-align: center;
-padding-top: 5vh;
-padding-bottom: 5vh;
-font-size: 2vw;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 2.5vw;
+    font-weight: 700;
 }
 .dia1A > .row{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-left: 4vw;
-    margin-right: 5vw;
+    margin-left:12vw;
+    margin-right: 16vw;
 }
 .dia1A > .row > .image{
     background-image: url("../images/angry-woman-1.jpg");
@@ -151,7 +154,7 @@ font-size: 2vw;
 .dia3 > .overlay{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-color: pink;
+    background-color: rgb(255, 228, 233);
 }
 .dia3 {
 
@@ -180,7 +183,7 @@ font-size: 2vw;
     display: grid;
     gap: 5vw;
     width: 80vw;
-    color: white;
+    color: black;
     grid-template-areas:
     'title title '
     'left right';
