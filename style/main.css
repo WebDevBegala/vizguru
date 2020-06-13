@@ -124,8 +124,16 @@ h2{
 }
 
 .dia2 {
-    height: 50vh;
+    height: 65vh;
 
+}
+
+.dia2 > div > div.right > div.image{
+    background-image: url("../images/nok.jpg");
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 2vh;
 }
 
 .content2 {
