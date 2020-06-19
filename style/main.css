@@ -365,6 +365,40 @@ h2{
     margin-left: 4vw;
 }
 
+.dia7a > .header{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(127, 203, 127);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 55% 85%, 50% 100%, 45% 85%, 0% 85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+font-size: 1.8vw;
+}
+
+.dia7a > .content {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+.dia7a > .content > .left > .image{
+    background-image: url('../images/viztisztito_1.png');
+    width: 16vw;
+    height: 100%;
+    background-size: cover;
+}
+.dia7a > .content > .right {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
 .dia8 {
     display: flex;
     justify-content: center;
