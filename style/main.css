@@ -59,7 +59,8 @@ h2{
 }
 
 .btn {
-    background-color: white;
+    background-color: #007f00;
+    color: white;
     width: fit-content;
     padding: 0.2vh 1vw;
     border-radius: 20px;
@@ -186,12 +187,15 @@ h2{
  }
 
 .btn-2 {
-    border: 1px solid black;
     width: fit-content;
     padding: 0 1vw;
     border-radius: 20px;
     font-size: 1.3vw;
     cursor: pointer;
+}
+
+.btn-2 > p{
+    color: white;
 }
 
 .dia2A{
@@ -422,6 +426,8 @@ font-size: 2vw;
     height: fit-content;
 
 }
+
+
 .dia7a > .content > .left > .image{
     background-image: url('../images/viztisztito_1.png');
     width: 16vw;
@@ -435,6 +441,14 @@ font-size: 2vw;
     flex-direction: column;
     font-size: 1.5vw;
 }
+
+.dia7a > .content > .right > h2{
+    font-size: 2vw;
+  }
+  .dia7 > div > div.left > p:nth-child(3){
+      font-size: 1.6vw;
+      font-weight: 900;
+  }
 .dia8 {
     display: flex;
     justify-content: center;
@@ -546,6 +560,10 @@ font-size: 2vw;
         padding: 1vh 7vw;
         font-size: 4vw;
     }
+    .working-gif{
+        width: 30vw;
+        height: 30vw;
+    }
     body > div.root > div.dia.dia5 > div > div.btn.btn-2{
         background-color: transparent;
     }
@@ -636,5 +654,8 @@ font-size: 2vw;
     .dia7a > .content > .left > .image{
         width: 70vw;
         height: 40vh;
+    }
+    .dia7a > .content > .right > h2{
+      font-size: 5.5vw;
     }
 }

@@ -32,10 +32,14 @@ Hihetetlenül fontos a jó minőségű víz, de kérve kérlek a környezetet NE
 `;
 
 let more6 = `Hazánk kiváló minőségű ivóvíz készlettel rendelkezik, 25%-ban karszt víz (lényegében ásványvíz), 35%-ban mélységi, védett rétegű víz (lényegében 90%-os ásványvíz), 35% folyamparti kavicságy (lényegében 50%-os ásványvíz). De klórozzák.
-Klóros vizet inni hosszú távon egészségtelen. A klórgázt az első világháborúban idegméregként használták, de erős baktérium és vírusölő hatása is van. Az a baj, hogy nemcsak a vizet fertőtleníti, hanem szervezetedet is: elpusztítja például a hasznos bélflórát. Mivel az egészségügyi hatóságok szerint a klórnak jelen kell lennie az ivóvízben, így fogyasztás, felhasználás előtt magunknak kell eltávolítanunk belőle. Ezt sem forralással, sem párologtatással nem lehet megtenni, ez egy buta tévhit.
-A régi építésű lakóházakban ólom csővezetékek lehetnek. A vízmű hálózatban már nincsenek ólom csövek, évekkel ezelőtt befejezte a Vízmű ezek teljes cseréjét. Ám a lakóházon belül senkinek se feladata hivatalból ezeket kicserélni. Az ólom vezetékből kis koncentrációban ólom juthat az ivóvízbe, ami hosszú távon káros.
+Klóros vizet inni hosszú távon egészségtelen. A klórgázt az első világháborúban idegméregként használták,
+ de erős baktérium és vírusölő hatása is van. Az a baj, hogy nemcsak a vizet fertőtleníti,
+  hanem szervezetedet is: elpusztítja például a hasznos bélflórát. Mivel az egészségügyi hatóságok szerint a klórnak jelen kell lennie az ivóvízben,
+   így fogyasztás, felhasználás előtt magunknak kell eltávolítanunk belőle. Ezt sem forralással, sem párologtatással nem lehet megtenni, ez egy buta tévhit.
+A régi építésű lakóházakban ólom csővezetékek lehetnek. A vízmű hálózatban már nincsenek ólom csövek, évekkel ezelőtt befejezte a Vízmű ezek teljes cseréjét.
+ Ám a lakóházon belül senkinek se feladata hivatalból ezeket kicserélni. Az ólom vezetékből kis koncentrációban ólom juthat az ivóvízbe, ami hosszú távon káros.
 
-A jó hír, hogy ezeket kivenni egyszerűbb, mint gondolnád egy aktív szenes víztisztítóval. Vállalj felelősséget az egészségedért és használj Super Aqua vízszűrőt a konyhádba!. Ezzel már sokat teszel az egészségedért, ráadásul a víz ízletesebb lesz, és a kellemetlen klór szagot sem kell többé elviselned, és ólom mentes lesz a vized.
+A jó hír, hogy ezeket kivenni egyszerűbb, mint gondolnád egy aktív szenes víztisztítóval. Vállalj felelősséget az egészségedért és használj ENJOYWATER víztiszítót a konyhádba!. Ezzel már sokat teszel az egészségedért, ráadásul a víz ízletesebb lesz, és a kellemetlen klór szagot sem kell többé elviselned, és ólom mentes lesz a vized.
 `;
 
 let moreTexts = [more1,more2,more3,more4,more5,more6];
