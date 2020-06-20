@@ -218,6 +218,10 @@ h2{
     padding-bottom: 10vh;
     background-color: rgb(255, 228, 233);
 }
+
+div.dia.dia2 > div > div.left > div > h4 > strong{
+    font-size: 1.2vw;
+}
 .dia3 {
 
 
@@ -326,6 +330,7 @@ h2{
     color: white;
     padding: 5vh 0;
 }
+
 
 .content5 > .overlay{
     height: fit-content;
