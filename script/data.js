@@ -14,13 +14,12 @@ A legtöbb ember palackos vizet iszik, napi 1 palackos víz, az egy évben 365 p
 `;
 
 let more4 = `Gondoltál-e már arra, hogy milyen kiadás a palackos vizek fogyasztása?
-Pénzügyileg gondolj bele, veszel a kondi teremben, boltban, egyéb helyeken is vizet, havi 5000-6000 Ft-ot simán elköltesz palackos vízre, az egy évben legalább 50-60 ezer Ft vagy akár 100ezer Ft is lehet. Pedig egészséges, minőségi, tiszta vizet, ami nem termel műanyag szemetet, ennek a töredékéért is tudsz inni.
-
-Sportos, egészségre törekvő nőként évente 480 db műanyag palackot is kidobhatsz.
-Sportos, belevaló férfiként évente 570 db műanyag palackot is kidobhatunk. Napi átlag 3 l ásványvíz, havi 48 palack, évi 570 db.
-
-Napjainkban az ásványvíz forgalmazás többmiliárd dolláros üzlet. Márkák tucatjai közül választhatunk az élelmiszerüzletekben. Gondoltad volna, hogy ezek közül jó néhány nem több, mint egy kicsit “feljavított” csapvíz?
-`;
+Pénzügyileg gondolj bele, veszel a kondi teremben, boltban, egyéb helyeken is vizet, havi 6000-9000 Ft-ot simán elköltesz palackos vízre,
+ az egy évben legalább 70-80 ezer Ft vagy akár 100ezer Ft-nál több is lehet. Pedig egészséges, minőségi, tiszta vizet,
+ ami nem termel műanyag szemetet, ennek a töredékéért is tudsz inni. Sportos, egészségre törekvő nőként évente 480 db műanyag palackot is kidobhatsz.
+  Sportos, belevaló férfiként évente 570 db műanyag palackot is kidobhatunk. Napi átlag 3 l ásványvíz, havi 48 palack, évi 570 db.
+  Napjainkban az ásványvíz forgalmazás többmiliárd dolláros üzlet. Márkák tucatjai közül választhatunk az élelmiszerüzletekben.
+ Gondoltad volna, hogy ezek közül jó néhány nem több, mint egy kicsit “feljavított” csapvíz?`;
 
 let more5 = `Biológusok és környezetvédők évtizedek óta figyelmeztetnek az ásványvíz és üdítős palackok okozta környezetszennyezésre.
 
