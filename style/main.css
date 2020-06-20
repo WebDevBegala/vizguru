@@ -523,6 +523,11 @@ font-size: 1.8vw;
     .content3{
         display: block;
     }
+
+    .content3 > .left > .list-item > .text{
+        font-size: 3vw;
+    }
+
     body > div.root > div.dia.dia3 > div > div > div.btn.btn-2{
         margin-top: 3vh;
     }
@@ -548,12 +553,6 @@ font-size: 1.8vw;
 
     .dia1A > .row > .image {
         width: 100%;
-    }
-    .dia1A-right-images > .left-img {
-        width: 35vw;
-    }
-    .dia1A-right-images > .right-img {
-        width: 35vw;
     }
     .dia1A > .row > .right > strong{
         margin-top: 4vh;
