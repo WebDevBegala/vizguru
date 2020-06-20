@@ -321,6 +321,12 @@ h2{
     color: white;
 }
 
+.content5 > p {
+    font-size: 2vw;
+}
+.content5 > .list-item > p {
+    font-size: 2vw;
+}
 .dia6 {
     display: flex;
     justify-content: center;
