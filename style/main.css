@@ -394,7 +394,7 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
 .dia7a > .header{
     width: 100vw;
     height: 40vh;
-    background-color: rgb(127, 203, 127);
+    background-color: #007f00;
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 55% 85%, 50% 100%, 45% 85%, 0% 85%);
     display: flex;
     align-items: center;
@@ -601,5 +601,8 @@ font-size: 1.8vw;
     .dia1A > .row{
         grid-template-columns: none;
         grid-template-rows: auto auto;
+    }
+    .dia7a > .header{
+        font-size: 4vw;
     }
 }
