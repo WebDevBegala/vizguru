@@ -283,11 +283,11 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
 }
 
 .content3>.left>.list-item>.list-icon {
-    color: lightgreen
+    color: green
 }
 
 .content3>.right>.list-item>.list-icon {
-    color: lightgreen
+    color: green
 }
 
 .dia4 {
@@ -364,6 +364,11 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
     display: grid;
     grid-template-columns: auto auto;
     padding: 10vh;
+}
+
+#videobeforetext{
+    font-size: 1.6vw;
+    font-weight: 600;
 }
 
 .content6>.left {
@@ -658,6 +663,6 @@ font-size: 2vw;
         height: 40vh;
     }
     .dia7a > .content > .right > h2{
-      font-size: 5.5vw;
+      font-size: 6.5vw;
     }
 }
