@@ -59,8 +59,8 @@ h2{
 }
 
 .btn {
-    background-color: #007f00;
-    color: white;
+    background-color: white;
+
     width: fit-content;
     padding: 0.2vh 1vw;
     border-radius: 20px;
@@ -187,6 +187,7 @@ h2{
  }
 
 .btn-2 {
+    border: 1px solid black;
     width: fit-content;
     padding: 0 1vw;
     border-radius: 20px;
@@ -195,7 +196,7 @@ h2{
 }
 
 .btn-2 > p{
-    color: white;
+    color: black;
 }
 
 .dia2A{
@@ -525,13 +526,14 @@ font-size: 2vw;
 
 
 .btn-buy{
-    background-color:#ade6b4;
+    background-color:green;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 8vh;
     padding: 1vh 3vw;
     font-size: 1.7vw;
+    color: white;
 }
 
 @media(max-width:450px) {
