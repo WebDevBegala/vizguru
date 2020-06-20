@@ -549,11 +549,23 @@ font-size: 1.8vw;
     .dia1A > .row > .image {
         width: 100%;
     }
-    .dia1A > .row > .text{
+    .dia1A-right-images > .left-img {
+        width: 35vw;
+    }
+    .dia1A-right-images > .right-img {
+        width: 35vw;
+    }
+    .dia1A > .row > .right > strong{
         margin-top: 4vh;
         font-size: 4.5vw;
         margin-bottom: 2vh;
     }
+    .dia1A > .row > .right > .text{
+        margin-top: 4vh;
+        font-size: 4.5vw;
+        margin-bottom: 2vh;
+    }
+
     .dia1A > .row{
         grid-template-columns: none;
         grid-template-rows: auto auto;
