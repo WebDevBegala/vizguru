@@ -177,6 +177,10 @@ h2{
     font-size: 1.4vw;
 }
 
+.content2 > .left > .list > .list-item{
+    font-size: 1.6vw;
+}
+
 .btn-2 {
     border: 1px solid black;
     width: fit-content;
@@ -310,7 +314,8 @@ h2{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 53vh;
+    height: fit-content;
+
 }
 
 .content5 {
@@ -319,6 +324,12 @@ h2{
     flex-direction: column;
     align-items: center;
     color: white;
+    padding: 5vh 0;
+}
+
+.content5 > .overlay{
+    height: fit-content;
+    padding: 5vh 0;
 }
 
 .content5 > p {
