@@ -351,6 +351,7 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
     display: flex;
     justify-content: center;
     height: 55vh;
+    margin-top: 2vh;
 }
 
 .content6 {
@@ -391,6 +392,10 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
     margin-left: 4vw;
 }
 
+.dia7a{
+    height: fit-content;
+}
+
 .dia7a > .header{
     width: 100vw;
     height: 40vh;
@@ -400,11 +405,11 @@ div.dia.dia2 > div > div.left > div > h4 > strong{
     align-items: center;
     justify-content: center;
     color: white;
-font-size: 1.8vw;
+font-size: 2vw;
 }
 
 .dia7a > .content {
-    height: 30vh;
+    height: fit-content;
     display: grid;
     grid-template-columns: 3fr 7fr;
     gap: 3vw;
@@ -412,10 +417,14 @@ font-size: 1.8vw;
     margin-right: 10vw;
     margin-top: 5vh;
 }
+.dia7a > .content > .left {
+    height: fit-content;
+
+}
 .dia7a > .content > .left > .image{
     background-image: url('../images/viztisztito_1.png');
     width: 16vw;
-    height: 100%;
+    height: 30vh;
     background-size: cover;
 }
 .dia7a > .content > .right {
@@ -604,5 +613,20 @@ font-size: 1.8vw;
     }
     .dia7a > .header{
         font-size: 4vw;
+    }
+    .dia7a > .header > span{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        text-align: center;
+    }
+
+    .dia7a > .content > .left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .dia7a > .content > .left > .image{
+        width: 28vw;
+        height: 100%;
     }
 }
