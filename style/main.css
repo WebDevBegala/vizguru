@@ -541,6 +541,13 @@ font-size: 1.8vw;
     .content1 > .text-area > h3{
         font-size: 5vw;
     }
+    .dia2A{
+        height: fit-content;
+        padding: 5vh 0;
+    }
+    .dia2A > .inside-row {
+        display: block;
+    }
 
     .content3{
         display: block;
