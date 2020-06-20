@@ -10,6 +10,8 @@ $(document).ready(() => {
       $("body > div.root > div.dia.dia3 > div > div > div.left > .list-item > p").css("font-size", "5vw");
       $("body > div.root > div.dia.dia5 > div > div > p").css("font-size", "5.5vw");
       $("body > div.root > div.dia.dia5 > div > div > div > p").css("font-size", "5.5vw");
+      $("body > div.root > div.dia.dia2 > div > div.left > div > div > p").css("font-size", "5vw");
+      $("body > div.root > div.dia.dia2 > div > div.left > div > h4 > strong").css("font-size", "5vw");
    }
 })
 

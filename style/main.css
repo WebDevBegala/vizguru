@@ -181,6 +181,10 @@ h2{
     font-size: 1.6vw;
 }
 
+ .dia2 > div > div.right > div.image {
+     margin-top: 12vh;
+ }
+
 .btn-2 {
     border: 1px solid black;
     width: fit-content;
