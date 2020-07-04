@@ -541,6 +541,136 @@ font-size: 2vw;
     color: white;
 }
 
+.dia-red{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vh 0;
+    position: relative;
+    margin-top: 60vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.product-landing-dia{
+
+}
+
+.content-product{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.content-product > .header{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    height: 28vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.header-image{
+    display: flex;
+}
+
+.content-product > .header > .header-image > .image{
+    background-image: url('../images/viztisztito_1.png');
+    background-size: cover;
+    background-position: center;
+    width: 15vw;
+}
+.content-product > .header > .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 40vh;
+}
+
+.content-grid > .image {
+    background-image: url('../images/EztEddNeAzt_Ebook_ajandek.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.content-grid > .text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-grid2{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 40vh;
+}
+
+.content-grid2 > .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-grid2 > .left > span:nth-child(1){
+    margin-bottom: 4vh;
+    font-weight: 600;
+    font-size: 1.6vw;
+}
+.content-grid2 > .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-grid2 > .image > img {
+    height: 30vh;
+}
+
+.content-grid2 > .text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-buy.btn-other{
+    width: fit-content;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+}
+
+.content-grid3{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 40vh;
+}
+
+.content-grid3 > .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-grid3 > .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-grid3 > .right > span:nth-child(1){
+    margin-bottom: 4vh;
+    color: green;
+    font-size: 1.5vw;
+}
+
 @media(max-width:450px) {
     .dia {
         height: 100%;
@@ -664,5 +794,9 @@ font-size: 2vw;
     }
     .dia7a > .content > .right > h2{
       font-size: 6.5vw;
+    }
+
+    .dia-red{
+        font-size: 5.5vw;
     }
 }
